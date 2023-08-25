@@ -4,13 +4,6 @@ using UnityEngine;
 
 public class Wheels : MonoBehaviour
 {
-    public class WheelColliders
-    {
-        public WheelCollider FR;
-        public WheelCollider FL;
-        public WheelCollider RR;
-        public WheelCollider RL;
-    }
 
     public class WheelMeshes
     {
@@ -21,5 +14,7 @@ public class Wheels : MonoBehaviour
     }
 
     public WheelColliders colliders;
+
+
 
 }

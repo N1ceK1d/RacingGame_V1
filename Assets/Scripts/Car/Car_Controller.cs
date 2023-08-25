@@ -12,9 +12,8 @@ public class Car_Controller : MonoBehaviour
         car.centerOfMass = centerOfMass.transform.localPosition;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
     }
+
 }

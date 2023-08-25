@@ -25,10 +25,8 @@ public class SteeringSystem : MonoBehaviour
     
     void Update()
     {
-        
         steeringInput = Input.GetAxis("Horizontal");
         SetSteeringType();
-        Debug.Log("Left: " + ackermanAngleLeft + " --- " + "Right: " + ackermanAngleRight  );
         FR.steerAngle = ackermanAngleRight;
         FL.steerAngle = ackermanAngleLeft;
     }
@@ -109,5 +107,4 @@ public class SteeringSystem : MonoBehaviour
             ackermanAngleRight = 0;
         }
     }
-
 }

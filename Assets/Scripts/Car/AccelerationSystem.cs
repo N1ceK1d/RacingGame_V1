@@ -55,13 +55,13 @@ public class AccelerationSystem : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.Space))
         {
-            FR.brakeTorque = brakePower;
-            FL.brakeTorque = brakePower;
+            RR.brakeTorque = brakePower;
+            RL.brakeTorque = brakePower;
         }
         else 
         {
-            FR.brakeTorque = 0;
-            FL.brakeTorque = 0;
+            RR.brakeTorque = 0;
+            RL.brakeTorque = 0;
         }
         
     }
