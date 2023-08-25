@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 280a4f3a35fc97441a03c82b04ee45e8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Speedway
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 836f2b92f9f39374eb7e32c406de5d9a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
