@@ -12,12 +12,8 @@ public class AccelerationSystem : MonoBehaviour
     }
 
     
-    public WheelCollider FR;
-    public WheelCollider FL;
-    public WheelCollider RR;
-    public WheelCollider RL;
+    public Wheels wheels;
     
-
     public DriveType driveType;
 
     private float accelerationInput;
@@ -55,35 +51,35 @@ public class AccelerationSystem : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.Space))
         {
-            RR.brakeTorque = brakePower;
-            RL.brakeTorque = brakePower;
+            wheels.RR.wheelCollider.brakeTorque = brakePower;
+            wheels.RL.wheelCollider.brakeTorque = brakePower;
         }
         else 
         {
-            RR.brakeTorque = 0;
-            RL.brakeTorque = 0;
+            wheels.RR.wheelCollider.brakeTorque = 0;
+            wheels.RL.wheelCollider.brakeTorque = 0;
         }
         
     }
 
     public void AccelerateFWD()
     {
-        FR.motorTorque = enginePower * accelerationInput;
-        FL.motorTorque = enginePower * accelerationInput;
+        wheels.FR.wheelCollider.motorTorque = enginePower * accelerationInput;
+        wheels.FL.wheelCollider.motorTorque = enginePower * accelerationInput;
     }
 
     public void AccelerateRWD()
     {
-        RR.motorTorque = enginePower * accelerationInput;
-        RL.motorTorque = enginePower * accelerationInput;
+        wheels.RR.wheelCollider.motorTorque = enginePower * accelerationInput;
+        wheels.RL.wheelCollider.motorTorque = enginePower * accelerationInput;
     }
 
     public void AccelerateAWD()
     {
-        FR.motorTorque = enginePower * accelerationInput;
-        FL.motorTorque = enginePower * accelerationInput;
-        RR.motorTorque = enginePower * accelerationInput;
-        RL.motorTorque = enginePower * accelerationInput;
+        wheels.FR.wheelCollider.motorTorque = enginePower * accelerationInput;
+        wheels.FL.wheelCollider.motorTorque = enginePower * accelerationInput;
+        wheels.RR.wheelCollider.motorTorque = enginePower * accelerationInput;
+        wheels.RL.wheelCollider.motorTorque = enginePower * accelerationInput;
     }
 
 }

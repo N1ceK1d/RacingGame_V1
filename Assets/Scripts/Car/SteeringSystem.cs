@@ -20,15 +20,14 @@ public class SteeringSystem : MonoBehaviour
     public float turnRadius;
     public float rearTrack;
 
-    public WheelCollider FR;
-    public WheelCollider FL;
+    public Wheels wheels;
     
     void Update()
     {
         steeringInput = Input.GetAxis("Horizontal");
         SetSteeringType();
-        FR.steerAngle = ackermanAngleRight;
-        FL.steerAngle = ackermanAngleLeft;
+        wheels.FR.wheelCollider.steerAngle = ackermanAngleRight;
+        wheels.FL.wheelCollider.steerAngle = ackermanAngleLeft;
     }
 
     public void SetSteeringType()
