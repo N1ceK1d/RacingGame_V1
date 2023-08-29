@@ -4,29 +4,44 @@ using UnityEngine;
 
 public class Wheels : MonoBehaviour
 {
+    public float wheelCircle;
+    public AudioSource driftSound;
     public Wheel FR;
     public Wheel FL;
     public Wheel RR;
     public Wheel RL;
-
-    public float wheelCircle;
     
     private void Update() {
-            UpdateWheelMeshes(FR.wheelCollider, FR.wheelMesh);
-            UpdateWheelMeshes(FL.wheelCollider, FL.wheelMesh);
-            UpdateWheelMeshes(RR.wheelCollider, RR.wheelMesh);
-            UpdateWheelMeshes(RL.wheelCollider, RL.wheelMesh);
+        UpdateWheelMeshes(FR.wheelCollider, FR.wheelMesh);
+        UpdateWheelMeshes(FL.wheelCollider, FL.wheelMesh);
+        UpdateWheelMeshes(RR.wheelCollider, RR.wheelMesh);
+        UpdateWheelMeshes(RL.wheelCollider, RL.wheelMesh);
     }
 
     public void WheelEffectsStart()
     {
-        FR.wheelMark.emitting = true;
-        FL.wheelMark.emitting = true;
-        RR.wheelMark.emitting = true;
-        RL.wheelMark.emitting = true;
-
-        RR.wheelSmoke.Play();
-        RL.wheelSmoke.Play();
+        if(FR.wheelCollider.isGrounded)
+        {
+            FR.wheelMark.emitting = true;
+        }
+        if(FL.wheelCollider.isGrounded)
+        {
+            FL.wheelMark.emitting = true;
+        }
+        if(RR.wheelCollider.isGrounded)
+        {
+            RR.wheelMark.emitting = true;
+            RR.wheelSmoke.Play();
+        }
+        if(RL.wheelCollider.isGrounded)
+        {
+            RL.wheelMark.emitting = true;
+            RL.wheelSmoke.Play();
+        }
+        if(RR.wheelCollider.isGrounded || RL.wheelCollider.isGrounded)
+        {
+            driftSound.Play();
+        }
     }
 
     public void WheelEffectsStop()
@@ -38,6 +53,7 @@ public class Wheels : MonoBehaviour
 
         RR.wheelSmoke.Stop();
         RL.wheelSmoke.Stop();
+        driftSound.Stop();
     }
 
     void UpdateWheelMeshes(WheelCollider col, MeshRenderer mesh)

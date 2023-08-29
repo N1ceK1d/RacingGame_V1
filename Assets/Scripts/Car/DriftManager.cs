@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System.Threading.Tasks;
+using TMPro.EditorUtilities;
+using TMPro;
 
 public class DriftManager : MonoBehaviour
 {
@@ -11,19 +14,28 @@ public class DriftManager : MonoBehaviour
     private float driftAngle = 0;
     private float driftFactor = 1;
     private bool isDrifting = false;
-    private float currentScore;
-    private float totalScore;
+    private int currentScore;
+    private int totalScore;
     private IEnumerator stopDriftCoroutine = null;
     private float minSpeedToDrift = 5;
     private float minAngleToDrift = 10;
     private float driftingDelay = 0.2f;
 
     public Wheels wheels;
-    public AudioSource driftSound;
+
+    public TMP_Text multperValue;
+    public TMP_Text currentScoreText;
+    public Image progressCircle;
+
+    private float maxScore = 300;
+    private float minScore = 0;
+    private float multiper = 0.0f;
+    
 
     private void Update()
     {
         ManagerDrift();
+        DriftScore();
     }
 
     private void ManagerDrift()
@@ -40,7 +52,6 @@ public class DriftManager : MonoBehaviour
             {
                 StartDrift();
                 wheels.WheelEffectsStart();
-                driftSound.Play();
             }
         }
         else 
@@ -49,17 +60,14 @@ public class DriftManager : MonoBehaviour
             {
                 StopDrift();
                 wheels.WheelEffectsStop();
-                driftSound.Stop();
             }
         }
         if(isDrifting)
         {
-           currentScore += Time.deltaTime * driftAngle * driftFactor;
+           currentScore += Mathf.RoundToInt(Time.deltaTime * driftAngle * driftFactor);
            driftFactor += Time.deltaTime;
         }
     }
-
-    
 
     private async void StartDrift()
     {
@@ -91,5 +99,20 @@ public class DriftManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         currentScore = 0;
     }
+
+    public void DriftScore()
+    {
+        progressCircle.fillAmount = Mathf.Lerp(0, 1, currentScore / maxScore);
+        currentScoreText.text = currentScore.ToString();
+        if(currentScore >= maxScore)
+        {
+            progressCircle.fillAmount = 0f;
+            multiper += 0.5f;
+            multperValue.text = "x"+multiper;
+            currentScore = 0;
+            Debug.Log("Maxxx");
+        }
+    }
+
 
 }

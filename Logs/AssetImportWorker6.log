@@ -15,7 +15,7 @@ D:/Unity/Проекты/RacingGame_V1
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-62649
+50172
 Successfully changed project path to: D:/Unity/Проекты/RacingGame_V1
 D:/Unity/Проекты/RacingGame_V1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Unity/Проекты/RacingGame_V1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25012] Host "[IP] 192.168.43.167 [Port] 0 [Flags] 2 [Guid] 443132075 [EditorId] 443132075 [Version] 1048832 [Id] WindowsEditor(7,knight) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6092] Host "[IP] 192.168.43.167 [Port] 0 [Flags] 2 [Guid] 953413662 [EditorId] 953413662 [Version] 1048832 [Id] WindowsEditor(7,knight) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25012] Host "[IP] 192.168.43.167 [Port] 0 [Flags] 2 [Guid] 443132075 [EditorId] 443132075 [Version] 1048832 [Id] WindowsEditor(7,knight) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6092] Host "[IP] 192.168.43.167 [Port] 0 [Flags] 2 [Guid] 953413662 [EditorId] 953413662 [Version] 1048832 [Id] WindowsEditor(7,knight) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 22.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,45 +69,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.810982 seconds.
-- Loaded All Assemblies, in 14.644 seconds
+Registered in 0.130348 seconds.
+- Loaded All Assemblies, in  6.762 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.161 seconds
-Domain Reload Profiling: 18811ms
-	BeginReloadAssembly (515ms)
+- Finished resetting the current domain, in  2.843 seconds
+Domain Reload Profiling: 9601ms
+	BeginReloadAssembly (4724ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (160ms)
-	RebuildNativeTypeToScriptingClass (39ms)
-	initialDomainReloadingComplete (3402ms)
-	LoadAllAssembliesAndSetupDomain (10520ms)
-		LoadAssemblies (508ms)
+	RebuildCommonClasses (178ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (439ms)
+	LoadAllAssembliesAndSetupDomain (1374ms)
+		LoadAssemblies (4717ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10392ms)
-			TypeCache.Refresh (10326ms)
-				TypeCache.ScanAssembly (7284ms)
+		AnalyzeDomain (1352ms)
+			TypeCache.Refresh (1317ms)
+				TypeCache.ScanAssembly (1022ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (65ms)
-	FinalizeReload (4175ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2845ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3433ms)
+		SetupLoadedEditorAssemblies (1842ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (165ms)
-			SetLoadedEditorAssemblies (284ms)
+			InitializePlatformSupportModulesInManaged (123ms)
+			SetLoadedEditorAssemblies (173ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (2381ms)
-			ProcessInitializeOnLoadMethodAttributes (433ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (1177ms)
+			ProcessInitializeOnLoadMethodAttributes (362ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (50ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
