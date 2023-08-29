@@ -16,7 +16,7 @@ public class AccelerationSystem : MonoBehaviour
     
     public DriveType driveType;
 
-    private float accelerationInput;
+    public float accelerationInput;
     public float enginePower;
     public float brakePower;
 

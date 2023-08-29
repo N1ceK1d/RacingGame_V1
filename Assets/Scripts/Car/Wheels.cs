@@ -8,6 +8,8 @@ public class Wheels : MonoBehaviour
     public Wheel FL;
     public Wheel RR;
     public Wheel RL;
+
+    public float wheelCircle;
     
     private void Update() {
             UpdateWheelMeshes(FR.wheelCollider, FR.wheelMesh);

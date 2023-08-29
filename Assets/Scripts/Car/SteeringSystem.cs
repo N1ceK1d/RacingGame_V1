@@ -24,10 +24,14 @@ public class SteeringSystem : MonoBehaviour
     
     void Update()
     {
-        steeringInput = Input.GetAxis("Horizontal");
         SetSteeringType();
         wheels.FR.wheelCollider.steerAngle = ackermanAngleRight;
         wheels.FL.wheelCollider.steerAngle = ackermanAngleLeft;
+    }
+
+    public void SetSteering(float steerValue)
+    {
+        steeringInput = steerValue;
     }
 
     public void SetSteeringType()

@@ -49,7 +49,7 @@ public class CreatePlayer : MonoBehaviour
     {
         Debug.Log("Animal: " + playerAnimal.name);
         PlayerData.playerAnimal = playerAnimal.sprite;
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("NewCarController");
     }
 
 

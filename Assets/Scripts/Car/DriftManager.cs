@@ -19,6 +19,7 @@ public class DriftManager : MonoBehaviour
     private float driftingDelay = 0.2f;
 
     public Wheels wheels;
+    public AudioSource driftSound;
 
     private void Update()
     {
@@ -39,6 +40,7 @@ public class DriftManager : MonoBehaviour
             {
                 StartDrift();
                 wheels.WheelEffectsStart();
+                driftSound.Play();
             }
         }
         else 
@@ -47,6 +49,7 @@ public class DriftManager : MonoBehaviour
             {
                 StopDrift();
                 wheels.WheelEffectsStop();
+                driftSound.Stop();
             }
         }
         if(isDrifting)
@@ -55,6 +58,8 @@ public class DriftManager : MonoBehaviour
            driftFactor += Time.deltaTime;
         }
     }
+
+    
 
     private async void StartDrift()
     {

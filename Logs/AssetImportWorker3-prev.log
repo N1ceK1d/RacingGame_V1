@@ -1,0 +1,1504 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 5996 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Unity/Проекты/RacingGame_V1
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+61901
+Successfully changed project path to: D:/Unity/Проекты/RacingGame_V1
+D:/Unity/Проекты/RacingGame_V1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6096] Host "[IP] 192.168.43.167 [Port] 0 [Flags] 2 [Guid] 3547734256 [EditorId] 3547734256 [Version] 1048832 [Id] WindowsEditor(7,knight) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6096] Host "[IP] 192.168.43.167 [Port] 0 [Flags] 2 [Guid] 3547734256 [EditorId] 3547734256 [Version] 1048832 [Id] WindowsEditor(7,knight) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 121.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Проекты/RacingGame_V1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6300M Series (ID=0x68e4)
+    Vendor:   ATI
+    VRAM:     1012 MB
+    Driver:   15.201.1151.1008
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026551 seconds.
+- Loaded All Assemblies, in  2.175 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.847 seconds
+Domain Reload Profiling: 4075ms
+	BeginReloadAssembly (634ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (265ms)
+	RebuildNativeTypeToScriptingClass (119ms)
+	initialDomainReloadingComplete (385ms)
+	LoadAllAssembliesAndSetupDomain (765ms)
+		LoadAssemblies (535ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (616ms)
+			TypeCache.Refresh (615ms)
+				TypeCache.ScanAssembly (567ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1907ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (34ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (15ms)
+			ProcessInitializeOnLoadAttributes (1241ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (33ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 16.081 seconds
+Refreshing native plugins compatible for Editor in 8.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.916 seconds
+Domain Reload Profiling: 21031ms
+	BeginReloadAssembly (1431ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (232ms)
+	RebuildCommonClasses (2182ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (1705ms)
+	LoadAllAssembliesAndSetupDomain (10733ms)
+		LoadAssemblies (9582ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2018ms)
+			TypeCache.Refresh (1911ms)
+				TypeCache.ScanAssembly (1848ms)
+			ScanForSourceGeneratedMonoScriptInfo (90ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (4960ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3189ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (177ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (393ms)
+			ProcessInitializeOnLoadAttributes (2494ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (65ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.02 seconds
+Refreshing native plugins compatible for Editor in 11.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (47.9 KB). Loaded Objects now: 3626.
+Memory consumption went from 205.9 MB to 205.9 MB.
+Total: 56.680400 ms (FindLiveObjects: 1.684100 ms CreateObjectMapping: 0.766100 ms MarkObjects: 51.398000 ms  DeleteObjects: 2.828800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 365013.471896 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Prefabs
+  artifactKey: Guid(42b853d81e5cd884c885d9e8469f35b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Prefabs using Guid(42b853d81e5cd884c885d9e8469f35b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44272f23ea469b9cb0e9718adf5444c6') in 0.049666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Prefabs/Test Track One Timing - Everlaps.prefab
+  artifactKey: Guid(64dc158348dda6a44ac245b22e288e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Prefabs/Test Track One Timing - Everlaps.prefab using Guid(64dc158348dda6a44ac245b22e288e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76937f7fdf51ccbd3bff4df91f6a0ac') in 0.277832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1
+  artifactKey: Guid(303e90d9a18018342b34e4d47263b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1 using Guid(303e90d9a18018342b34e4d47263b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3cd49509c7cc65943e4bde9c658b5a') in 0.001131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Prefabs/Test Track One Timing.prefab
+  artifactKey: Guid(e5123892e36e989478e165608b8d3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Prefabs/Test Track One Timing.prefab using Guid(e5123892e36e989478e165608b8d3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30a56c6c5d3efab424726a25c646e1c') in 0.008704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 101
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/volkswagen-corrado-vr6-low-poly-model/source/CRVR6.fbx
+  artifactKey: Guid(c9134c9323e893c42a06e8bb4c2d6a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/volkswagen-corrado-vr6-low-poly-model/source/CRVR6.fbx using Guid(c9134c9323e893c42a06e8bb4c2d6a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cf19ac67ee0202477a4bf0bed36d74') in 4.183214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Prefabs/Test Track One References.prefab
+  artifactKey: Guid(d4b5a0843afaeed469c522a777a961bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Prefabs/Test Track One References.prefab using Guid(d4b5a0843afaeed469c522a777a961bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60f0d9d5e5a011ab57f96e0ded31b93') in 0.926893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 456
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Scripts
+  artifactKey: Guid(f733a612f89f960418811ccc0c52a41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Scripts using Guid(f733a612f89f960418811ccc0c52a41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4dad3e5ecc2af22633c50e38990077') in 0.001307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Scripts/WheelController.cs
+  artifactKey: Guid(644d3fbd8a7588b4e802405971fecd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Scripts/WheelController.cs using Guid(644d3fbd8a7588b4e802405971fecd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd17ed371c0846e8cfd784295abe9688') in 0.001608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Prefabs/Player (Vehicle).prefab
+  artifactKey: Guid(7cc84feb2d0fd3b4099409fc1daa2c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Prefabs/Player (Vehicle).prefab using Guid(7cc84feb2d0fd3b4099409fc1daa2c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9b8b9a0e93eb2c744ff89c8dfe61a3') in 0.438785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 351
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Scripts/WheelAlignment.cs
+  artifactKey: Guid(bab8821d774d01440be4afe24c442adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Scripts/WheelAlignment.cs using Guid(bab8821d774d01440be4afe24c442adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4748c00336971fd951fb3390af0d47d3') in 0.001199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models
+  artifactKey: Guid(632d2dcfa58392148bb1d53959a417d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models using Guid(632d2dcfa58392148bb1d53959a417d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7542c6dfabbc54abb452e5003a60f1f2') in 0.000667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000731 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/bmw-m1-procar
+  artifactKey: Guid(423c52735d83cd5489049af53c5a0241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/bmw-m1-procar using Guid(423c52735d83cd5489049af53c5a0241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd6f504898ec7d7784c3354068622bd') in 0.002331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Prefabs/Test Track One V4 rigged - minified.prefab
+  artifactKey: Guid(5f48830b716b34c49adbc84bc5c6b5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Models/Test Track One/Prefabs/Test Track One V4 rigged - minified.prefab using Guid(5f48830b716b34c49adbc84bc5c6b5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dc87ec7e04e09375b7aace52da16e4') in 30.520537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4054
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  4.850 seconds
+Refreshing native plugins compatible for Editor in 9.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 215.021 seconds
+Domain Reload Profiling: 219867ms
+	BeginReloadAssembly (537ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (120ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (164ms)
+	LoadAllAssembliesAndSetupDomain (4014ms)
+		LoadAssemblies (2195ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2149ms)
+			TypeCache.Refresh (2121ms)
+				TypeCache.ScanAssembly (2081ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (215022ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1644ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (1320ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Refreshing native plugins compatible for Editor in 48.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (52.1 KB). Loaded Objects now: 3669.
+Memory consumption went from 207.8 MB to 207.7 MB.
+Total: 17.256700 ms (FindLiveObjects: 0.901800 ms CreateObjectMapping: 0.284400 ms MarkObjects: 13.343700 ms  DeleteObjects: 2.722800 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 330.880980 seconds.
+  path: Assets/ProDrift
+  artifactKey: Guid(2f7326aaf748cfe48ababa20636fceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProDrift using Guid(2f7326aaf748cfe48ababa20636fceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b12635846e7a73ef78b5947db2c758f') in 0.055055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 218.988175 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/high_on.wav
+  artifactKey: Guid(64ec59fb0753e9348a58f49d25ec8af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/high_on.wav using Guid(64ec59fb0753e9348a58f49d25ec8af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d8d20b8b1190d4bed3ab2694b92a32') in 0.634141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/idle.wav
+  artifactKey: Guid(4290a50fa11eb394e8f50852efd52ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/idle.wav using Guid(4290a50fa11eb394e8f50852efd52ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb46a06acd8681ac2407fcbca5816372') in 0.045682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Audio/startup.wav
+  artifactKey: Guid(99b748decab928d458a93535459bc00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Audio/startup.wav using Guid(99b748decab928d458a93535459bc00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be6f4b528442f5653ac2f2ff325f6a5') in 0.110545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 11.059 seconds
+Refreshing native plugins compatible for Editor in 10.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 84.658 seconds
+Domain Reload Profiling: 95673ms
+	BeginReloadAssembly (1275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (152ms)
+	RebuildCommonClasses (319ms)
+	RebuildNativeTypeToScriptingClass (100ms)
+	initialDomainReloadingComplete (342ms)
+	LoadAllAssembliesAndSetupDomain (8977ms)
+		LoadAssemblies (5223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4391ms)
+			TypeCache.Refresh (4356ms)
+				TypeCache.ScanAssembly (4258ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (84661ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (16041ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (633ms)
+			SetLoadedEditorAssemblies (317ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (405ms)
+			ProcessInitializeOnLoadAttributes (14342ms)
+			ProcessInitializeOnLoadMethodAttributes (278ms)
+			AfterProcessingInitializeOnLoad (66ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (74ms)
+Refreshing native plugins compatible for Editor in 16.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (90.0 KB). Loaded Objects now: 3682.
+Memory consumption went from 208.2 MB to 208.1 MB.
+Total: 20.671100 ms (FindLiveObjects: 0.912500 ms CreateObjectMapping: 0.263400 ms MarkObjects: 18.957300 ms  DeleteObjects: 0.534700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  5.337 seconds
+Refreshing native plugins compatible for Editor in 15.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.970 seconds
+Domain Reload Profiling: 14283ms
+	BeginReloadAssembly (1914ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (228ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (493ms)
+	RebuildCommonClasses (337ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (205ms)
+	LoadAllAssembliesAndSetupDomain (2803ms)
+		LoadAssemblies (1810ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1862ms)
+			TypeCache.Refresh (1845ms)
+				TypeCache.ScanAssembly (1797ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (8971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (259ms)
+			SetLoadedEditorAssemblies (25ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (661ms)
+			ProcessInitializeOnLoadAttributes (3033ms)
+			ProcessInitializeOnLoadMethodAttributes (245ms)
+			AfterProcessingInitializeOnLoad (105ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (46ms)
+Refreshing native plugins compatible for Editor in 13.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (106.1 KB). Loaded Objects now: 3685.
+Memory consumption went from 208.2 MB to 208.1 MB.
+Total: 31.978400 ms (FindLiveObjects: 9.773900 ms CreateObjectMapping: 0.752000 ms MarkObjects: 14.090700 ms  DeleteObjects: 7.356900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 274.580269 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Prefabs/Player (Vehicle).prefab
+  artifactKey: Guid(7cc84feb2d0fd3b4099409fc1daa2c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Prefabs/Player (Vehicle).prefab using Guid(7cc84feb2d0fd3b4099409fc1daa2c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159b1708eeccb65f23ea66f3ae4a8a63') in 7.340807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 351
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 15.502 seconds
+Refreshing native plugins compatible for Editor in 46.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.792 seconds
+Domain Reload Profiling: 27282ms
+	BeginReloadAssembly (3330ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (760ms)
+	RebuildCommonClasses (774ms)
+	RebuildNativeTypeToScriptingClass (187ms)
+	initialDomainReloadingComplete (562ms)
+	LoadAllAssembliesAndSetupDomain (10635ms)
+		LoadAssemblies (6900ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4985ms)
+			TypeCache.Refresh (4567ms)
+				TypeCache.ScanAssembly (4229ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (418ms)
+	FinalizeReload (11793ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2770ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1063ms)
+			ProcessInitializeOnLoadAttributes (1510ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 15.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (89.9 KB). Loaded Objects now: 3688.
+Memory consumption went from 208.3 MB to 208.2 MB.
+Total: 23.181100 ms (FindLiveObjects: 1.374500 ms CreateObjectMapping: 2.879100 ms MarkObjects: 18.546400 ms  DeleteObjects: 0.378100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  7.626 seconds
+Refreshing native plugins compatible for Editor in 62.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 30.542 seconds
+Domain Reload Profiling: 38159ms
+	BeginReloadAssembly (1044ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (73ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (265ms)
+	RebuildCommonClasses (280ms)
+	RebuildNativeTypeToScriptingClass (89ms)
+	initialDomainReloadingComplete (364ms)
+	LoadAllAssembliesAndSetupDomain (5837ms)
+		LoadAssemblies (2248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4079ms)
+			TypeCache.Refresh (3886ms)
+				TypeCache.ScanAssembly (3653ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (182ms)
+	FinalizeReload (30544ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (10507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (71ms)
+			SetLoadedEditorAssemblies (259ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1364ms)
+			ProcessInitializeOnLoadAttributes (7641ms)
+			ProcessInitializeOnLoadMethodAttributes (990ms)
+			AfterProcessingInitializeOnLoad (182ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (57ms)
+Refreshing native plugins compatible for Editor in 351.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (89.3 KB). Loaded Objects now: 3691.
+Memory consumption went from 208.2 MB to 208.2 MB.
+Total: 14.637600 ms (FindLiveObjects: 2.517700 ms CreateObjectMapping: 2.053300 ms MarkObjects: 9.691100 ms  DeleteObjects: 0.372300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 257.602943 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Prefabs/Canvas.prefab
+  artifactKey: Guid(5c1897fa98cbcd8499f80f59dfde1c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Prefabs/Canvas.prefab using Guid(5c1897fa98cbcd8499f80f59dfde1c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39005bb6aa23d8d5eb843e0bbe09fc6') in 3.091558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Prefabs/Post FX.prefab
+  artifactKey: Guid(13c83e655e18ed64cb8928284ff887f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Prefabs/Post FX.prefab using Guid(13c83e655e18ed64cb8928284ff887f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f629096c5c9753c61afe9cac3a57e77') in 0.096865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.004938 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Prefabs/SkidmarksController.prefab
+  artifactKey: Guid(8db590e06f130904e929ebdef7fce66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Prefabs/SkidmarksController.prefab using Guid(8db590e06f130904e929ebdef7fce66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd089454004e89ee8c3d49d58f8bea0c0') in 0.052823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 10.667707 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Tools
+  artifactKey: Guid(67a975bd01eb5a6418141184f4bde19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Tools using Guid(67a975bd01eb5a6418141184f4bde19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61441e26ca2c52930dacb6fdea1d8abc') in 0.001924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Tools/New Terrain.asset
+  artifactKey: Guid(2d60d035e5f1b754693b85f8c44e198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Tools/New Terrain.asset using Guid(2d60d035e5f1b754693b85f8c44e198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e118fdf14989e708884cda2e537f516f') in 1.562754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.357049 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks/SkidmarksController.prefab
+  artifactKey: Guid(3e7f96afc2225384a9be4b8ba394e1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks/SkidmarksController.prefab using Guid(3e7f96afc2225384a9be4b8ba394e1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99b5c329469479c616807dd54356e4b') in 0.331312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.540365 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks/SkidmarksMat.mat
+  artifactKey: Guid(5c4fa5f647c3046469d1868c47f3130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks/SkidmarksMat.mat using Guid(5c4fa5f647c3046469d1868c47f3130f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa89b38cf1a083e1772fd9bbf1350c8') in 3.680957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.718663 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks/SkidmarksTex.psd
+  artifactKey: Guid(26034eb97365ff443a07e333666652de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks/SkidmarksTex.psd using Guid(26034eb97365ff443a07e333666652de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cad5b2d90142aee2eca8c136444cf2') in 1.240542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.662190 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks
+  artifactKey: Guid(351c461dd10518144932626b6368c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks using Guid(351c461dd10518144932626b6368c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663da72ed644205e28661cb6cce1bcee') in 0.001963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.304632 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks/WheelSkid.cs
+  artifactKey: Guid(1848074eee38bc247a4f6de3aa81ca60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks/WheelSkid.cs using Guid(1848074eee38bc247a4f6de3aa81ca60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35c6bd604e56c100b2658b7f7a6e106') in 0.001292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.368015 seconds.
+  path: Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks/Skidmarks.shader
+  artifactKey: Guid(748797bf246665248b65ec17e29bd275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zukomazi - Pro Drift Controller v1/Tools/UnitySkidmarks/Skidmarks.shader using Guid(748797bf246665248b65ec17e29bd275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9a401a618d3c5f614d902883850b42') in 0.021640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 10.004 seconds
+Refreshing native plugins compatible for Editor in 14.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 40.528 seconds
+Domain Reload Profiling: 50425ms
+	BeginReloadAssembly (2177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (374ms)
+	RebuildCommonClasses (639ms)
+	RebuildNativeTypeToScriptingClass (166ms)
+	initialDomainReloadingComplete (471ms)
+	LoadAllAssembliesAndSetupDomain (6433ms)
+		LoadAssemblies (4486ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3413ms)
+			TypeCache.Refresh (3140ms)
+				TypeCache.ScanAssembly (3010ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (260ms)
+	FinalizeReload (40540ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (16783ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (222ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2284ms)
+			ProcessInitializeOnLoadAttributes (12754ms)
+			ProcessInitializeOnLoadMethodAttributes (1142ms)
+			AfterProcessingInitializeOnLoad (315ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (376ms)
+Refreshing native plugins compatible for Editor in 22.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (48.5 KB). Loaded Objects now: 3695.
+Memory consumption went from 208.0 MB to 207.9 MB.
+Total: 29.634900 ms (FindLiveObjects: 0.960500 ms CreateObjectMapping: 0.338400 ms MarkObjects: 28.020600 ms  DeleteObjects: 0.310600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 40.574 seconds
+Refreshing native plugins compatible for Editor in 139.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 15.550 seconds
+Domain Reload Profiling: 56095ms
+	BeginReloadAssembly (15876ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (86ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4712ms)
+	RebuildCommonClasses (2418ms)
+	RebuildNativeTypeToScriptingClass (630ms)
+	initialDomainReloadingComplete (2971ms)
+	LoadAllAssembliesAndSetupDomain (18644ms)
+		LoadAssemblies (19254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7631ms)
+			TypeCache.Refresh (7578ms)
+				TypeCache.ScanAssembly (7201ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (52ms)
+	FinalizeReload (15556ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (68ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (713ms)
+			ProcessInitializeOnLoadAttributes (3822ms)
+			ProcessInitializeOnLoadMethodAttributes (1526ms)
+			AfterProcessingInitializeOnLoad (518ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (419ms)
+Refreshing native plugins compatible for Editor in 474.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (47.0 KB). Loaded Objects now: 3698.
+Memory consumption went from 208.0 MB to 208.0 MB.
+Total: 71.694600 ms (FindLiveObjects: 1.128900 ms CreateObjectMapping: 0.644400 ms MarkObjects: 69.216800 ms  DeleteObjects: 0.698500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 12.271 seconds
+Refreshing native plugins compatible for Editor in 45.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 14.456 seconds
+Domain Reload Profiling: 26759ms
+	BeginReloadAssembly (1546ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (385ms)
+	RebuildCommonClasses (387ms)
+	RebuildNativeTypeToScriptingClass (69ms)
+	initialDomainReloadingComplete (188ms)
+	LoadAllAssembliesAndSetupDomain (10111ms)
+		LoadAssemblies (5430ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5331ms)
+			TypeCache.Refresh (5168ms)
+				TypeCache.ScanAssembly (4878ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (163ms)
+	FinalizeReload (14459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3286ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (24ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (713ms)
+			ProcessInitializeOnLoadAttributes (2281ms)
+			ProcessInitializeOnLoadMethodAttributes (170ms)
+			AfterProcessingInitializeOnLoad (54ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (67ms)
+Refreshing native plugins compatible for Editor in 82.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.9 KB). Loaded Objects now: 3701.
+Memory consumption went from 208.0 MB to 208.0 MB.
+Total: 43.695800 ms (FindLiveObjects: 1.654100 ms CreateObjectMapping: 0.695400 ms MarkObjects: 40.278600 ms  DeleteObjects: 1.063900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 18.135 seconds
+Refreshing native plugins compatible for Editor in 138.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 29.105 seconds
+Domain Reload Profiling: 47196ms
+	BeginReloadAssembly (1737ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (56ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (458ms)
+	RebuildCommonClasses (649ms)
+	RebuildNativeTypeToScriptingClass (267ms)
+	initialDomainReloadingComplete (418ms)
+	LoadAllAssembliesAndSetupDomain (15018ms)
+		LoadAssemblies (7013ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8562ms)
+			TypeCache.Refresh (8419ms)
+				TypeCache.ScanAssembly (8258ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (143ms)
+	FinalizeReload (29106ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (11214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (265ms)
+			SetLoadedEditorAssemblies (35ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1389ms)
+			ProcessInitializeOnLoadAttributes (8511ms)
+			ProcessInitializeOnLoadMethodAttributes (767ms)
+			AfterProcessingInitializeOnLoad (245ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (15ms)
+		AwakeInstancesAfterBackupRestoration (217ms)
+Refreshing native plugins compatible for Editor in 25.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.9 KB). Loaded Objects now: 3704.
+Memory consumption went from 208.0 MB to 208.0 MB.
+Total: 54.779500 ms (FindLiveObjects: 12.549400 ms CreateObjectMapping: 12.832100 ms MarkObjects: 29.085500 ms  DeleteObjects: 0.308500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 34.306 seconds
+Refreshing native plugins compatible for Editor in 252.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 27.529 seconds
+Domain Reload Profiling: 61938ms
+	BeginReloadAssembly (5679ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (311ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1315ms)
+	RebuildCommonClasses (1070ms)
+	RebuildNativeTypeToScriptingClass (352ms)
+	initialDomainReloadingComplete (1262ms)
+	LoadAllAssembliesAndSetupDomain (25914ms)
+		LoadAssemblies (9690ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19160ms)
+			TypeCache.Refresh (19139ms)
+				TypeCache.ScanAssembly (18587ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (27660ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (9298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (76ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3373ms)
+			ProcessInitializeOnLoadAttributes (5412ms)
+			ProcessInitializeOnLoadMethodAttributes (267ms)
+			AfterProcessingInitializeOnLoad (151ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (91ms)
+Refreshing native plugins compatible for Editor in 23.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.9 KB). Loaded Objects now: 3707.
+Memory consumption went from 208.0 MB to 208.0 MB.
+Total: 34.909300 ms (FindLiveObjects: 1.311900 ms CreateObjectMapping: 1.171300 ms MarkObjects: 32.112900 ms  DeleteObjects: 0.309100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 15.033 seconds
+Refreshing native plugins compatible for Editor in 32.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 14.735 seconds
+Domain Reload Profiling: 29751ms
+	BeginReloadAssembly (4158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (244ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1071ms)
+	RebuildCommonClasses (631ms)
+	RebuildNativeTypeToScriptingClass (369ms)
+	initialDomainReloadingComplete (701ms)
+	LoadAllAssembliesAndSetupDomain (9154ms)
+		LoadAssemblies (4866ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6357ms)
+			TypeCache.Refresh (6298ms)
+				TypeCache.ScanAssembly (6110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (59ms)
+	FinalizeReload (14738ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (98ms)
+			SetLoadedEditorAssemblies (89ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (892ms)
+			ProcessInitializeOnLoadAttributes (4225ms)
+			ProcessInitializeOnLoadMethodAttributes (198ms)
+			AfterProcessingInitializeOnLoad (65ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (85ms)
+Refreshing native plugins compatible for Editor in 28.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.9 KB). Loaded Objects now: 3710.
+Memory consumption went from 208.0 MB to 208.0 MB.
+Total: 38.167800 ms (FindLiveObjects: 0.948100 ms CreateObjectMapping: 0.351100 ms MarkObjects: 36.596400 ms  DeleteObjects: 0.269200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (19.3 KB). Loaded Objects now: 3710.
+Memory consumption went from 160.1 MB to 160.1 MB.
+Total: 67.201900 ms (FindLiveObjects: 1.359300 ms CreateObjectMapping: 0.364100 ms MarkObjects: 65.277900 ms  DeleteObjects: 0.197100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 12.625 seconds
+Refreshing native plugins compatible for Editor in 52.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 81.278 seconds
+Domain Reload Profiling: 93905ms
+	BeginReloadAssembly (842ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (6ms)
+		CreateAndSetChildDomain (202ms)
+	RebuildCommonClasses (196ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (292ms)
+	LoadAllAssembliesAndSetupDomain (11235ms)
+		LoadAssemblies (5984ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5566ms)
+			TypeCache.Refresh (5410ms)
+				TypeCache.ScanAssembly (5207ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (156ms)
+	FinalizeReload (81280ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (11754ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (233ms)
+			SetLoadedEditorAssemblies (433ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2584ms)
+			ProcessInitializeOnLoadAttributes (7665ms)
+			ProcessInitializeOnLoadMethodAttributes (559ms)
+			AfterProcessingInitializeOnLoad (278ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (229ms)
+Refreshing native plugins compatible for Editor in 179.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (47.0 KB). Loaded Objects now: 3713.
+Memory consumption went from 208.0 MB to 208.0 MB.
+Total: 68.767400 ms (FindLiveObjects: 27.734400 ms CreateObjectMapping: 0.952000 ms MarkObjects: 39.763400 ms  DeleteObjects: 0.313700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 31.159 seconds
+Refreshing native plugins compatible for Editor in 10.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 272.515 seconds
+Domain Reload Profiling: 303666ms
+	BeginReloadAssembly (766ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (408ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (165ms)
+	LoadAllAssembliesAndSetupDomain (29770ms)
+		LoadAssemblies (19219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11038ms)
+			TypeCache.Refresh (10977ms)
+				TypeCache.ScanAssembly (10577ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (60ms)
+	FinalizeReload (272517ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (302ms)
+			ProcessInitializeOnLoadAttributes (2701ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (1259ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 150.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (47.0 KB). Loaded Objects now: 3716.
+Memory consumption went from 208.0 MB to 208.0 MB.
+Total: 161.043800 ms (FindLiveObjects: 2.480500 ms CreateObjectMapping: 0.665400 ms MarkObjects: 155.929800 ms  DeleteObjects: 1.963800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Проекты\RacingGame_V1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 31.505 seconds
+Refreshing native plugins compatible for Editor in 341.93 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 85.332 seconds
+Domain Reload Profiling: 116675ms
+	BeginReloadAssembly (11284ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (266ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (862ms)
+	RebuildCommonClasses (2666ms)
+	RebuildNativeTypeToScriptingClass (304ms)
+	initialDomainReloadingComplete (778ms)
+	LoadAllAssembliesAndSetupDomain (16309ms)
+		LoadAssemblies (19978ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5652ms)
+			TypeCache.Refresh (5146ms)
+				TypeCache.ScanAssembly (4864ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (505ms)
+	FinalizeReload (85334ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6159ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (160ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1062ms)
+			ProcessInitializeOnLoadAttributes (4601ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (113ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (127ms)
+Refreshing native plugins compatible for Editor in 1088.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.9 KB). Loaded Objects now: 3719.
+Memory consumption went from 208.0 MB to 208.0 MB.
+Total: 99.600600 ms (FindLiveObjects: 38.693400 ms CreateObjectMapping: 0.618500 ms MarkObjects: 59.831200 ms  DeleteObjects: 0.453600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4417.815141 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(b8e0b92f1890a2640977bd4859f90d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(b8e0b92f1890a2640977bd4859f90d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b194bdf176b9ff697472e02d199ddd6') in 36.485778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 444.539938 seconds.
+  path: Assets/Scenes/NewCarController.unity
+  artifactKey: Guid(0c145dd6a53d2ba4c8db974ac8a0df60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewCarController.unity using Guid(0c145dd6a53d2ba4c8db974ac8a0df60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa77352ebce7070fbc7e9f009fbe37f2') in 0.045754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.773738 seconds.
+  path: Assets/Prefabs/TruenoAE86.prefab
+  artifactKey: Guid(ce6b4abeb139ba54b8fba38bfd050f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TruenoAE86.prefab using Guid(ce6b4abeb139ba54b8fba38bfd050f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4552c63694c0edea10e7add86834801') in 1.756685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 146.920265 seconds.
+  path: Assets/Scripts/Car/Engine.cs
+  artifactKey: Guid(f00db5688f8b4554e8a4fa15ea766852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/Engine.cs using Guid(f00db5688f8b4554e8a4fa15ea766852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da49d073bb7ba54f0ca29b00a6158062') in 0.001991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015614 seconds.
+  path: Assets/Scripts/Data/SettingData.cs
+  artifactKey: Guid(d5eeefaa17a9c6c499c8eaaa656c6db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/SettingData.cs using Guid(d5eeefaa17a9c6c499c8eaaa656c6db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8faa8b919c2f3f0607a4ab0e6a9124') in 0.019612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.253166 seconds.
+  path: Assets/Scripts/Car/SteeringSystem.cs
+  artifactKey: Guid(ef64fbdea0a6ba5429671f0dc42d4f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/SteeringSystem.cs using Guid(ef64fbdea0a6ba5429671f0dc42d4f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff0b7d9ee1f694d98efcf4103b626d5') in 0.001154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.443936 seconds.
+  path: Assets/Scripts/Car/DriftManager.cs
+  artifactKey: Guid(1633c06cbcdf80144a1f97a3c3c6f415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/DriftManager.cs using Guid(1633c06cbcdf80144a1f97a3c3c6f415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eea79a281a66b8528b7943f6bb1c770') in 0.001441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.100807 seconds.
+  path: Assets/Scripts/Car/Car_Controller.cs
+  artifactKey: Guid(25bb3dd1fe1779440af88cdcef0666f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/Car_Controller.cs using Guid(25bb3dd1fe1779440af88cdcef0666f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacd273f616d38f81aceaafd412b8194') in 0.001280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.555151 seconds.
+  path: Assets/Scripts/Car/Wheels.cs
+  artifactKey: Guid(ab9c6d35210c3eb4cbd600ee48e04c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/Wheels.cs using Guid(ab9c6d35210c3eb4cbd600ee48e04c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d445b0d4cad7ef3332d17ff735739f') in 0.003298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.166634 seconds.
+  path: Assets/Scripts/Menu/MainMenuController.cs
+  artifactKey: Guid(716c73244fe3c98438d32c019eb7fd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu/MainMenuController.cs using Guid(716c73244fe3c98438d32c019eb7fd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f3dc38cf964241eb915d76684c4530') in 0.001226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.143547 seconds.
+  path: Assets/Scripts/MP3Player.cs
+  artifactKey: Guid(6edc4969e106e334da79c4292297422f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MP3Player.cs using Guid(6edc4969e106e334da79c4292297422f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fec112a3737709e9273329a3637b6a8') in 0.001135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.335786 seconds.
+  path: Assets/Scripts/Car/DayCycleManager.cs
+  artifactKey: Guid(bea59b8c4f19c554fabde69260de4bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/DayCycleManager.cs using Guid(bea59b8c4f19c554fabde69260de4bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36054478c443eac127583ab8231b38eb') in 0.001255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.469422 seconds.
+  path: Assets/Scripts/Menu/SettingsController.cs
+  artifactKey: Guid(6de6fc6d30681e548a927c250dcd46c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu/SettingsController.cs using Guid(6de6fc6d30681e548a927c250dcd46c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d6b6fa0844aadf58bd6e0045c45e99') in 0.001821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.383400 seconds.
+  path: Assets/Scripts/Car/Tachometer.cs
+  artifactKey: Guid(1c007307b424eab4cad11f2b8e4b0f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/Tachometer.cs using Guid(1c007307b424eab4cad11f2b8e4b0f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948d7ad2004e28a326a3b290ed130895') in 0.002251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.129370 seconds.
+  path: Assets/Scripts/Pause.cs
+  artifactKey: Guid(60cbe44a44f912244836f5f1b429c010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pause.cs using Guid(60cbe44a44f912244836f5f1b429c010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb3b9f4661cb098947f15faceb22985') in 0.001416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.337726 seconds.
+  path: Assets/Scripts/Car/AccelerationSystem.cs
+  artifactKey: Guid(1ab8a78c0e2d7dd46872bff1a0701c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/AccelerationSystem.cs using Guid(1ab8a78c0e2d7dd46872bff1a0701c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596b3afe9285947021b121eeb5196a6f') in 0.001289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030360 seconds.
+  path: Assets/Scripts/HUD.cs
+  artifactKey: Guid(559bf139b273919419a4894e384aad34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD.cs using Guid(559bf139b273919419a4894e384aad34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312d3ba7f93d0cc2f4158e1b08c86e2b') in 0.001569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.755246 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(18c32a6e4f6d1e249bbb67574bc4a34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(18c32a6e4f6d1e249bbb67574bc4a34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996028f2e18d2c215f87adbf9e536477') in 0.001414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.267402 seconds.
+  path: Assets/Scripts/Car/Transmission.cs
+  artifactKey: Guid(b3a409b3614fc1d4097b0937d56f0e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/Transmission.cs using Guid(b3a409b3614fc1d4097b0937d56f0e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c233db5e13a24ec3aa7360914753401') in 0.001062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.257160 seconds.
+  path: Assets/Scripts/Car/CameraScript.cs
+  artifactKey: Guid(0f7cebd410943114d9ea146dec9ab76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/CameraScript.cs using Guid(0f7cebd410943114d9ea146dec9ab76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae53888d940fa94b44ef2b8490a46f3') in 0.001221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.220401 seconds.
+  path: Assets/Scripts/Car/CarAudio.cs
+  artifactKey: Guid(1dade70784f403e4c891a53c3d21b53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Car/CarAudio.cs using Guid(1dade70784f403e4c891a53c3d21b53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab1f13fdb29bddade26db1c38de0095') in 0.040535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.248483 seconds.
+  path: Assets/Scripts/CreatePlayer.cs
+  artifactKey: Guid(724188ce9b52371459abc0b0ca7c9dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CreatePlayer.cs using Guid(724188ce9b52371459abc0b0ca7c9dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2591fe1a3cba4b0d48f058963d0846e4') in 0.001324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.087358 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(fe5ae969943e0d645ba77089bdbfded0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(fe5ae969943e0d645ba77089bdbfded0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647d5d12089bfb6cdd0f168008c8b812') in 0.001096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.168618 seconds.
+  path: Assets/Scripts/Data/PlayerData.cs
+  artifactKey: Guid(24e508c167abf2e4489868e58cf71de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Data/PlayerData.cs using Guid(24e508c167abf2e4489868e58cf71de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d237fde62cacb3cba08a7f061261e7a') in 0.042364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

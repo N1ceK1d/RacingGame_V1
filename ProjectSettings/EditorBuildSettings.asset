@@ -5,15 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: b8e0b92f1890a2640977bd4859f90d23
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/CreatePlayer.unity
     guid: cedb8ce48a6c55548bb894df7fd209c5
-  - enabled: 0
-    path: Assets/Scenes/Game.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/NewCarController.unity
     guid: 0c145dd6a53d2ba4c8db974ac8a0df60
