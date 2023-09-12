@@ -1,51 +1,69 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Transmission : MonoBehaviour
 {
-    public enum TransmissionType
-    {
-        AKPP, MKPP
-    }
-    public Engine engine;
-    public TransmissionType transmissionType;
-    public List<Gear> gears;
+
+    public TransmissionType type;
+    public float[] gearRatios;
+    public float currentRatio;
+    public int currentGear = 0;
     public float mainGearRatio;
-    public float currentGearRation;
-    public Text currentGearText;
-    public AudioSource changeGearSound;
+    public TMP_Text currentGearText;
 
-    private Gear currentGear;
-    private int gearIndex;
-    
+    public float minSpeedGear;
+    public float maxSpeedGear;
 
-    public void BoostGear()
+    public void AutomatTransmission(float speed)
     {
-        gearIndex++;
-        currentGear = gears[gearIndex];
-        changeGearSound.Play();
-    }
-
-    public void ReducedGear()
-    {
-        changeGearSound.Play();
-    }
-
-    public void AutomaticalChangeGear()
-    {
-        if(engine.currentSpeed >= engine.maxSpeed)
+        if(speed >= maxSpeedGear)
         {
             BoostGear();
         }
+        if(speed <= minSpeedGear)
+        {
+            LowerGear();
+        }
     }
 
+    public void ManualTransmission()
+    {
+        if(Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            BoostGear();
+        }
+        if(Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            LowerGear();
+        }
+    }
 
+    public float BoostGear()
+    {
+        if(currentGear < gearRatios.Length - 1)
+        {
+            currentGear += 1;
+            currentRatio = gearRatios[currentGear];
+        }
+        currentGearText.text = currentGear.ToString();
+        return gearRatios[currentGear];
+        
+    }
+
+    public float LowerGear()
+    {
+        if(currentGear >= 0)
+        {
+            currentGear -= 1;
+            currentRatio = gearRatios[currentGear];
+        }
+        currentGearText.text = currentGear.ToString();
+        return gearRatios[currentGear];
+    }
 }
 
-[System.Serializable]
-public class GetSpeedRatio{
-    public string gearValue;
-    public float gearRatio;
+public enum TransmissionType
+{
+    manual,
+    automat
 }

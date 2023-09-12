@@ -6,7 +6,7 @@ public class MainMenuController : MonoBehaviour
     public Pause pause;
     public void StartGame()
     {
-        SceneManager.LoadScene("CreatePlayer");
+        SceneManager.LoadScene("NewCarController");
     }
 
     public void ExitGame()

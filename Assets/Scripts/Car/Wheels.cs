@@ -1,25 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Wheels : MonoBehaviour
 {
     public float wheelCircle;
     public AudioSource driftSound;
+    public Material skidMarkMaterial;
+    public ParticleSystem tireSmoke;
     public Wheel FR;
     public Wheel FL;
     public Wheel RR;
     public Wheel RL;
+
+    public float alpha;
+    public float duration;
     
     private void Update() {
         UpdateWheelMeshes(FR.wheelCollider, FR.wheelMesh);
         UpdateWheelMeshes(FL.wheelCollider, FL.wheelMesh);
         UpdateWheelMeshes(RR.wheelCollider, RR.wheelMesh);
         UpdateWheelMeshes(RL.wheelCollider, RL.wheelMesh);
+        skidMarkMaterial.color = new Color(0f, 0f, 0f, alpha);
     }
 
     public void WheelEffectsStart()
     {
+        StartCoroutine(smoothVal(0.0f, 0.3f, duration));
         if(FR.wheelCollider.isGrounded)
         {
             FR.wheelMark.emitting = true;
@@ -31,16 +39,34 @@ public class Wheels : MonoBehaviour
         if(RR.wheelCollider.isGrounded)
         {
             RR.wheelMark.emitting = true;
-            RR.wheelSmoke.Play();
+            if(alpha > .2f)
+            {
+                RR.wheelSmoke.Play();
+            }
         }
         if(RL.wheelCollider.isGrounded)
         {
+            if(alpha > .2f)
+            {
+                RL.wheelSmoke.Play();
+            }
             RL.wheelMark.emitting = true;
-            RL.wheelSmoke.Play();
         }
         if(RR.wheelCollider.isGrounded || RL.wheelCollider.isGrounded)
         {
             driftSound.Play();
+        }
+    }
+
+    IEnumerator smoothVal (float from, float to, float timer)
+    { 
+        float t = 0.0f;
+        float val = from;
+        while (t < 1.0f) {
+            t += Time.deltaTime * (1.0f / timer);
+            val = Mathf.Lerp (from, to, t); 
+            alpha = val;
+            yield return 0;
         }
     }
 

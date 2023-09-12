@@ -1,33 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Tachometer : MonoBehaviour
 {
-    
-    public Rigidbody target;
-    public float minSpeedArrowAngle;
-    public float maxSpeedArrowAngle;
+    public GameObject target;
+    public TMP_Text speedLabel;
+    public Image tachometer;
 
-    [Header("UI")]
-    public Text speedLabel;
-    public RectTransform arrow;
    
     private float speed;
+    private Rigidbody targetRb;
+    private Car_Controller controller;
+    
+    private void Start() {
+        targetRb = target.GetComponent<Rigidbody>();
+        controller = target.GetComponent<Car_Controller>();
+    }
 
     void FixedUpdate()
     {
-        speed = Mathf.RoundToInt(target.velocity.magnitude * 3.6f);
 
-        if(speedLabel != null)
-        {
-            speedLabel.text = ((int)speed) + " km/h";
-            //speedLabel.text = (int)speed + "";
-        } 
-        if(arrow != null)
-        {
-            arrow.localEulerAngles = new Vector3(0, 0, Mathf.Lerp(minSpeedArrowAngle, maxSpeedArrowAngle, speed / 350));
-        }
+        speed = Mathf.RoundToInt(targetRb.velocity.magnitude * 3.6f);
+        speedLabel.text = speed + " km/h";
+        tachometer.fillAmount = Mathf.Lerp(0, 1, speed / controller.maxSpeed);
     }
 }

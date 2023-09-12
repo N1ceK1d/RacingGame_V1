@@ -24,7 +24,6 @@ public class AccelerationSystem : MonoBehaviour
     {
         accelerationInput = Input.GetAxis("Vertical");
         SetDriveType();
-        Handbrake();
     }
 
     public void SetDriveType()
@@ -47,19 +46,26 @@ public class AccelerationSystem : MonoBehaviour
         }
     }
 
-    public void Handbrake()
+    public void Handbrake(float speed)
     {
         if(Input.GetKey(KeyCode.Space))
         {
             wheels.RR.wheelCollider.brakeTorque = brakePower;
             wheels.RL.wheelCollider.brakeTorque = brakePower;
+            if(Input.GetKeyDown(KeyCode.Space) && (int)speed > 0)
+            {
+                wheels.WheelEffectsStart();
+            }
         }
         else 
         {
             wheels.RR.wheelCollider.brakeTorque = 0;
             wheels.RL.wheelCollider.brakeTorque = 0;
+            if(Input.GetKeyUp(KeyCode.Space) || (int)speed == 0)
+            {
+                wheels.WheelEffectsStop();
+            }
         }
-        
     }
 
     public void AccelerateFWD()

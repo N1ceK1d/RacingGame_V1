@@ -15,7 +15,7 @@ D:/Unity/Проекты/RacingGame_V1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62649
+57962
 Successfully changed project path to: D:/Unity/Проекты/RacingGame_V1
 D:/Unity/Проекты/RacingGame_V1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,7 +49,19 @@ D:/Unity/Проекты/RacingGame_V1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15000] Host "[IP] 192.168.43.167 [Port] 0 [Flags] 2 [Guid] 3870071350 [EditorId] 3870071350 [Version] 1048832 [Id] WindowsEditor(7,knight) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20424] Host "[IP] 192.168.43.167 [Port] 0 [Flags] 2 [Guid] 3025857823 [EditorId] 3025857823 [Version] 1048832 [Id] WindowsEditor(7,knight) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15000] Host "[IP] 192.168.43.167 [Port] 0 [Flags] 2 [Guid] 3870071350 [EditorId] 3870071350 [Version] 1048832 [Id] WindowsEditor(7,knight) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20424] Host "[IP] 192.168.43.167 [Port] 0 [Flags] 2 [Guid] 3025857823 [EditorId] 3025857823 [Version] 1048832 [Id] WindowsEditor(7,knight) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
+Refreshing native plugins compatible for Editor in 395.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Проекты/RacingGame_V1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6300M Series (ID=0x68e4)
+    Vendor:   ATI
+    VRAM:     1012 MB
+    Driver:   15.201.1151.1008

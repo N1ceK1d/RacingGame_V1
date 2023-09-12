@@ -16,6 +16,7 @@ public class Car_Controller : MonoBehaviour
 
     private float speedClamped;
     private float carSpeed;
+    public float maxSpeed;
     void Start()
     {
         car = GetComponent<Rigidbody>();
@@ -27,25 +28,33 @@ public class Car_Controller : MonoBehaviour
         carSpeed = car.velocity.magnitude * 3.6f;
         speedClamped = Mathf.Lerp(speedClamped, carSpeed, Time.deltaTime);
 
-        steeringSystem.SetSteering(Input.GetAxis("Horizontal"));
-        //engine.MaxSpeed(wheel.wheelCircle, transmission.mainGearRatio, transmission.currentGearRation);
-        //engine.LimitSpeed(car);
+        Debug.Log("Car speed: " + (int)carSpeed);
 
-        //if(transmission.transmissionType == Transmission.TransmissionType.AKPP)
-        //{
-        //    transmission.AutomaticalChangeGear();
-        //}
-        //else 
-        //{
-        //    if(Input.GetKeyDown(KeyCode.UpArrow))
-        //    {
-        //        transmission.BoostGear();
-        //    }
-        //    if(Input.GetKeyDown(KeyCode.DownArrow))
-        //    {
-        //        transmission.ReducedGear();
-        //    }
-        //}
+        engine.MaxSpeed(wheel.wheelCircle, transmission.mainGearRatio, transmission.currentRatio);
+        maxSpeed = engine.maxSpeed;
+        engine.LimitSpeed(car);
+        accelerationSystem.Handbrake(carSpeed);
+
+        if(transmission.type == TransmissionType.manual)
+        {
+            transmission.ManualTransmission();
+        }
+        else 
+        {
+            transmission.maxSpeedGear = engine.maxSpeed;
+            transmission.AutomatTransmission(carSpeed);
+        }
+
+        steeringSystem.SetSteering(Input.GetAxis("Horizontal"));
+        
+        
+    }
+
+    public float currentSpeed ()
+    {
+        float speed = car.velocity.magnitude;
+        speed = car.velocity.magnitude * 3.6f;
+        return speed;
     }
 
     public float GetSpeedRatio()

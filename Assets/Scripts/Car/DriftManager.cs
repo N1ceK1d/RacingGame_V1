@@ -1,9 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Threading.Tasks;
-using TMPro.EditorUtilities;
 using TMPro;
 
 public class DriftManager : MonoBehaviour
@@ -15,21 +13,24 @@ public class DriftManager : MonoBehaviour
     private float driftFactor = 1;
     private bool isDrifting = false;
     private int currentScore;
-    private int totalScore;
     private IEnumerator stopDriftCoroutine = null;
     private float minSpeedToDrift = 5;
     private float minAngleToDrift = 10;
     private float driftingDelay = 0.2f;
 
+    public CanvasGroup canvasGroup;
+    public CanvasGroup totalScoreGroup;
+    public float duration = .4f;
+
     public Wheels wheels;
 
     public TMP_Text multperValue;
     public TMP_Text currentScoreText;
+    public TMP_Text totalScoreText;
     public Image progressCircle;
 
     private float maxScore = 300;
-    private float minScore = 0;
-    private float multiper = 0.0f;
+    private float multiper = 1.0f;
     
 
     private void Update()
@@ -82,6 +83,7 @@ public class DriftManager : MonoBehaviour
             stopDriftCoroutine = null;
         }
         isDrifting = true;
+        StartCoroutine(DoShow(canvasGroup, canvasGroup.alpha, 1));
     }
 
     private void StopDrift()
@@ -94,10 +96,18 @@ public class DriftManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
         yield return new WaitForSeconds(driftingDelay * 4f);
-        totalScore += currentScore;
+        totalScoreText.text = Mathf.RoundToInt(currentScore * multiper).ToString() + " pts";
         isDrifting = false;
         yield return new WaitForSeconds(0.5f);
+
         currentScore = 0;
+        StartCoroutine(DoHide(canvasGroup, canvasGroup.alpha, 0));
+        DriftScoreClear();
+
+        yield return new WaitForSeconds(0.2f);
+        StartCoroutine(DoShow(totalScoreGroup, totalScoreGroup.alpha, 1));
+        yield return new WaitForSeconds(0.6f);
+        StartCoroutine(DoHide(totalScoreGroup, totalScoreGroup.alpha, 0));
     }
 
     public void DriftScore()
@@ -108,11 +118,41 @@ public class DriftManager : MonoBehaviour
         {
             progressCircle.fillAmount = 0f;
             multiper += 0.5f;
-            multperValue.text = "x"+multiper;
-            currentScore = 0;
-            Debug.Log("Maxxx");
+            maxScore *= 2;
+            multperValue.text = "x"+ multiper;
         }
     }
 
+    public void DriftScoreClear()
+    {
+        progressCircle.fillAmount = 0f;
+        multiper = 1.0f;
+        maxScore = 350;
+        multperValue.text = "x"+ multiper;
+    }
 
+     public IEnumerator DoHide(CanvasGroup canvasGroup, float start, float end)
+    {
+        float counter = 0f;
+
+        while(counter < duration)
+        {
+            counter += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Lerp(start, end, counter / duration);
+
+            yield return null;
+        }
+    }
+    public IEnumerator DoShow(CanvasGroup canvasGroup, float start, float end)
+    {
+        float counter = 0f;
+
+        while(counter < duration)
+        {
+            counter += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Lerp(start, end, counter / duration);
+
+            yield return null;
+        }
+    }
 }
