@@ -17,6 +17,14 @@ public class Car_Controller : MonoBehaviour
     private float speedClamped;
     private float carSpeed;
     public float maxSpeed;
+
+    private RaycastHit hit;
+
+    private Vector3 wheelVelocityLS; //LocalSpace
+    private float Fx;
+    private float Fy;
+    public float springForce;
+    public Vector3 suspensionForce;
     void Start()
     {
         car = GetComponent<Rigidbody>();
@@ -28,11 +36,11 @@ public class Car_Controller : MonoBehaviour
         carSpeed = car.velocity.magnitude * 3.6f;
         speedClamped = Mathf.Lerp(speedClamped, carSpeed, Time.deltaTime);
 
-        Debug.Log("Car speed: " + (int)carSpeed);
-
         engine.MaxSpeed(wheel.wheelCircle, transmission.mainGearRatio, transmission.currentRatio);
         maxSpeed = engine.maxSpeed;
         engine.LimitSpeed(car);
+        engine.CalculateEngineTorque();
+        accelerationSystem.torque = engine.CalculateWheelTorque(engine.engineTorque, transmission.currentRatio, transmission.mainGearRatio);
         accelerationSystem.Handbrake(carSpeed);
 
         if(transmission.type == TransmissionType.manual)
@@ -47,7 +55,13 @@ public class Car_Controller : MonoBehaviour
 
         steeringSystem.SetSteering(Input.GetAxis("Horizontal"));
         
-        
+        Debug.DrawRay(transform.position, -transform.up * 100, Color.red);
+        wheelVelocityLS = transform.InverseTransformDirection(car.GetPointVelocity(hit.point));
+
+        Fx = Input.GetAxis("Vertical") * springForce;
+        Fy = wheelVelocityLS.x * springForce;
+
+        car.AddForceAtPosition(suspensionForce + (Fx * transform.forward) + (Fy * -transform.right), hit.point);
     }
 
     public float currentSpeed ()

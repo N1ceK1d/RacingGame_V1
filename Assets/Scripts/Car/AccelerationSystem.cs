@@ -17,7 +17,7 @@ public class AccelerationSystem : MonoBehaviour
     public DriveType driveType;
 
     public float accelerationInput;
-    public float enginePower;
+    public float torque;
     public float brakePower;
 
     void Update()
@@ -50,8 +50,8 @@ public class AccelerationSystem : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.Space))
         {
-            wheels.RR.wheelCollider.brakeTorque = brakePower;
-            wheels.RL.wheelCollider.brakeTorque = brakePower;
+            wheels.FR.wheelCollider.brakeTorque = brakePower;
+            wheels.FL.wheelCollider.brakeTorque = brakePower;
             if(Input.GetKeyDown(KeyCode.Space) && (int)speed > 0)
             {
                 wheels.WheelEffectsStart();
@@ -59,8 +59,8 @@ public class AccelerationSystem : MonoBehaviour
         }
         else 
         {
-            wheels.RR.wheelCollider.brakeTorque = 0;
-            wheels.RL.wheelCollider.brakeTorque = 0;
+            wheels.FR.wheelCollider.brakeTorque = 0;
+            wheels.FL.wheelCollider.brakeTorque = 0;
             if(Input.GetKeyUp(KeyCode.Space) || (int)speed == 0)
             {
                 wheels.WheelEffectsStop();
@@ -70,22 +70,22 @@ public class AccelerationSystem : MonoBehaviour
 
     public void AccelerateFWD()
     {
-        wheels.FR.wheelCollider.motorTorque = enginePower * accelerationInput;
-        wheels.FL.wheelCollider.motorTorque = enginePower * accelerationInput;
+        wheels.FR.wheelCollider.motorTorque = torque * accelerationInput;
+        wheels.FL.wheelCollider.motorTorque = torque * accelerationInput;
     }
 
     public void AccelerateRWD()
     {
-        wheels.RR.wheelCollider.motorTorque = enginePower * accelerationInput;
-        wheels.RL.wheelCollider.motorTorque = enginePower * accelerationInput;
+        wheels.RR.wheelCollider.motorTorque = torque * accelerationInput;
+        wheels.RL.wheelCollider.motorTorque = torque * accelerationInput;
     }
 
     public void AccelerateAWD()
     {
-        wheels.FR.wheelCollider.motorTorque = enginePower * accelerationInput;
-        wheels.FL.wheelCollider.motorTorque = enginePower * accelerationInput;
-        wheels.RR.wheelCollider.motorTorque = enginePower * accelerationInput;
-        wheels.RL.wheelCollider.motorTorque = enginePower * accelerationInput;
+        wheels.FR.wheelCollider.motorTorque = torque * accelerationInput;
+        wheels.FL.wheelCollider.motorTorque = torque * accelerationInput;
+        wheels.RR.wheelCollider.motorTorque = torque * accelerationInput;
+        wheels.RL.wheelCollider.motorTorque = torque * accelerationInput;
     }
 
 }
